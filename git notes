@@ -25,3 +25,20 @@ commit
     git add *.extention
     
     
+git log:
+
+    git log
+    this command will show all the commits you have done up till now.
+    
+    git show
+    this command will show all the commits with the detailed information in it
+    
+    they both are the logger for the git.
+    
+express commit:
+    git commit -am "comment"
+    this command is used to skip the git add command.
+    warning  : this command does not include the files which are newly created.
+    
+    git ls-files            (used to see the files that have changes)
+    
