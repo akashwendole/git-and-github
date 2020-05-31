@@ -12,3 +12,8 @@ initialisation:
     first go to the directory with the command line.
     git init 
     
+commit
+    create a file or modify the file.
+    git add filename.extention      (used to add the changes or modification in the branch)
+    git commit -m "comment"         (used to do the final commit with the comment)
+      
