@@ -16,4 +16,12 @@ commit
     create a file or modify the file.
     git add filename.extention      (used to add the changes or modification in the branch)
     git commit -m "comment"         (used to do the final commit with the comment)
-      
+    
+    
+    it has got other way to add all files to the branch.
+    git add .
+    
+    it has got other way to add all the files which have the same extention
+    git add *.extention
+    
+    
