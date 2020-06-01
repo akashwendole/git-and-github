@@ -42,3 +42,24 @@ express commit:
     
     git ls-files            (used to see the files that have changes)
     
+
+go back or rollback changes using checkout:
+    git reset HEAD          (this command is used to undo the changes in the staging area. But it will not effect or go back the file.
+    git checkout -- filename.extention          (this will undo the changes we made recently in the file that is stored in out local machine.)
+    
+    
+sorting:
+    this command is used to access the git log file in some neat way.
+    
+    git log --oneline --graph --decorate --all
+    
+    
+alias:
+    this command is used to create shortcuts for the git commands.
+    git config --global alias.shortcut_name "command to be shortcuts"
+    to run the shortcuts:
+        git alias_name
+        
+**to edit a git config file we can use the following command.**
+**git config --global --edit**
+
