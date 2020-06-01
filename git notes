@@ -63,3 +63,7 @@ alias:
 **to edit a git config file we can use the following command.**
 **git config --global --edit**
 
+rename and delete files:
+    rename:
+        git mv file_name.extention new_file_name.extention
+        
