@@ -66,4 +66,8 @@ alias:
 rename and delete files:
     rename:
         git mv file_name.extention new_file_name.extention
+    delete:
+        git rm file_name.extention
+
+
         
