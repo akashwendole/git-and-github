@@ -70,4 +70,11 @@ rename and delete files:
         git rm file_name.extention
 
 
-        
+ignoring files:
+    this option is preety useful as it hides or ignores the files which we do not want to send to git server.
+    first create a file named ".gitignore"
+    then add the file names of the files which we don't want to add to the server.
+                                    OR
+    in the gitignore file just add the extension of the files which we don't want to include for eg: "*.log"
+    
+    
