@@ -78,3 +78,5 @@ ignoring files:
     in the gitignore file just add the extension of the files which we don't want to include for eg: "*.log"
     
     
+branches:
+    
