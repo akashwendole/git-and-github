@@ -79,4 +79,11 @@ ignoring files:
     
     
 branches:
-    
+    create a new branch:
+        git checkout -b branchname
+    switching branches:
+        git checkout branchname
+    merging the branch:
+        git merge branchname
+
+        
