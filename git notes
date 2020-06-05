@@ -87,3 +87,25 @@ branches:
         git merge branchname
 
         
+conflicts:
+    this issues are created when there is a same file and in the same line two branches make some changes and they are different from one other. This conflict can be caused during merging the branches and it can be solved by deleting the line in the merged branch.
+    
+    
+deleting a branch:
+    git branch -d branch_name
+    this command deletes the branch we specify.
+    
+    
+tags:
+    create:
+        git tag tagname
+    create a tag with message:
+        git tag -a tagname -m "message or comment"
+    list all tags:
+        git tag --list
+    delete a tag:
+        git tag -d tagname              (This command deletes the tag you specify)
+            OR
+        git tag -d                      (This command deletes all the tags present in the git)
+        
+        
