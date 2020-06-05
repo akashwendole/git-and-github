@@ -125,3 +125,13 @@ reset:
     hard:
         This command reset to the specified commit and it changes the files according to that commit and the files are changed.
         git reset commit_id --hard
+        
+        
+link to github:
+    first open your github account or login into an existing github account.
+    after that create a new repository and in that new repository fill the form and then you will see the instructions for connecting the repository to your git project file.
+    then for pushing the local git database to the github account use the following command.
+        git push origin branch_name
+    
+    
+
