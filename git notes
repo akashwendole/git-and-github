@@ -109,3 +109,11 @@ tags:
         git tag -d                      (This command deletes all the tags present in the git)
         
         
+stash:
+    GIT stash is a useful command which is used when we are working on a project and we want to share the project without the updates or the last fine working code of the project.
+    It's command is as follows:-
+        git stash           (for invoking the stash )
+        git stash list      (for viewing if stash is availiable for the current project.)
+        git stash pop       (for undoing the stash command)
+        
+        
