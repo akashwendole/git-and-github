@@ -117,3 +117,11 @@ stash:
         git stash pop       (for undoing the stash command)
         
         
+reset:
+    To go back to the previous commit we can use two different types of commands.
+    soft:
+        this command reset to the specified commit but it is only logical meand no changes will occour.
+        git reset commit_id --soft
+    hard:
+        This command reset to the specified commit and it changes the files according to that commit and the files are changed.
+        git reset commit_id --hard
