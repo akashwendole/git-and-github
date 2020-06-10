@@ -147,3 +147,21 @@ clone a git project to your local machine:
         git clone url_of_the_project new_project_name           (if you want to have the git project in your file system with other name)
 
         
+create a shortcut for the git push option:
+    git config --global push.default simple
+    
+    
+editing the title:
+    if you changed the title of your project or the URL of your project has been modified then use the following command.
+        git remote set-url origin new_URL
+    
+    
+update the data from the github:
+    if we created a new file on the github server through webpage then that file dosen't automatically sync with your machine.
+    So in order to sync that file or data we can use the following command:
+        git pull
+        
+to check the details of the commit:
+    git show commit_id
+    
+    
