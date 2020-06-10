@@ -134,4 +134,8 @@ link to github:
         git push origin branch_name
     
     
+to check if our project is connected to some remote repository we can use the following command.
+    git remote -v
+
+    
 
