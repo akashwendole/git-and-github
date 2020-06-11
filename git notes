@@ -165,3 +165,7 @@ to check the details of the commit:
     git show commit_id
     
     
+to pull data from the specified branch we can use the following command:
+    git pull origin branch_name
+    
+    
