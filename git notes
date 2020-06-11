@@ -97,6 +97,7 @@ deleting a branch:
     
     
 tags:
+    tags are used to define a specifid commit of the project. For eg: if we are working on a projectand we found a commit which is very close to finished project and we decided that this commit is the one that is our finished project version so we name that commmit and then it makes us easy to refernce that commit with with tag.
     create:
         git tag tagname
     create a tag with message:
@@ -107,7 +108,8 @@ tags:
         git tag -d tagname              (This command deletes the tag you specify)
             OR
         git tag -d                      (This command deletes all the tags present in the git)
-        
+    create a tag for a specified commit:
+        git tag -a tagname -m "message or comment" commit_id
         
 stash:
     GIT stash is a useful command which is used when we are working on a project and we want to share the project without the updates or the last fine working code of the project.
@@ -169,3 +171,12 @@ to pull data from the specified branch we can use the following command:
     git pull origin branch_name
     
     
+to delete a remote branch:
+    git push origin : branch_name
+    
+    
+pushing tags:
+    git push origin tagname             (for a single tag)
+    git push --tags                     (for pushing all the tags at the same time)
+    
+
