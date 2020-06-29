@@ -180,3 +180,28 @@ pushing tags:
     git push --tags                     (for pushing all the tags at the same time)
     
 
+delete a tag:
+    git tag -d tagname                  (this will only delete the local tag or local machine tag)
+    git push origin :tagname            (this will delete the tag from the main repository or the server)
+    
+    
+edit a tag:             (to change the id of the tag)
+    git tag -f tagname new tag_id_or_commit_id
+    git push --force origin stable              (if we want to edit the tag in local and remote repository too)
+    
+    
+comparison of branches daywise:
+    branchname@{1day}                           (only in github website)
+    
+    
+    
+fork:
+    it means to copy the code of some devloper and paste it in our gi taccount as a repository.
+    It helps to take the project of some devloper and work on it.
+    
+    
+    
+to close an issue using local:
+    git commit -m "comment    . close #issue number"
+    git push
+    
